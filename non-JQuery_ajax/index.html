@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My cool AJAX stuff</title>
+
+		<script src="ajax.js"></script>
+	</head>
+	<body>
+		<form name="myForm">
+
+			<!-- Everytime you focus out (or "blur" out of the username field, the time field will
+			update with the latest time -->
+			
+			<input type="text" name="username" onBlur="ajaxFunction();" placeholder="Enter username" /><br />
+			<input type="text" name="time" placeholder="Enter time" />
+		</form>
+	</body>
+</html>
