@@ -1,4 +1,2 @@
-This is some line 
- is some other line
-
-adding some stuff
+This is some line
+this is some other line
